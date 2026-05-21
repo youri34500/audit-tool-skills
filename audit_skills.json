@@ -1,0 +1,190 @@
+{
+    "tool": "audit-tool",
+    "version": "1.0.0",
+    "description": "20 skills les plus populaires pour la creation d'un outil d'audit",
+    "skills": [
+          {
+                  "id": 1,
+                  "name": "Security Vulnerability Assessment",
+                  "category": "Securite",
+                  "description": "Detection des failles de securite (XSS, CSRF, SQL Injection, OWASP Top 10)",
+                  "tools": ["OWASP ZAP", "Snyk", "SonarQube"],
+                  "priority": "critical"
+          },
+          {
+                  "id": 2,
+                  "name": "Performance Profiling",
+                  "category": "Performance",
+                  "description": "Analyse des temps de chargement, Core Web Vitals (LCP, FID, CLS)",
+                  "tools": ["Lighthouse", "WebPageTest", "Chrome DevTools"],
+                  "priority": "high"
+          },
+          {
+                  "id": 3,
+                  "name": "SEO Analysis",
+                  "category": "SEO",
+                  "description": "Audit des balises meta, structure HTML, sitemap, robots.txt",
+                  "tools": ["Screaming Frog", "Ahrefs", "Google Search Console"],
+                  "priority": "high"
+          },
+          {
+                  "id": 4,
+                  "name": "Accessibility Compliance (WCAG)",
+                  "category": "Accessibilite",
+                  "description": "Verification des standards WCAG 2.1/2.2, ARIA, contraste des couleurs",
+                  "tools": ["axe", "WAVE", "Lighthouse Accessibility"],
+                  "priority": "high"
+          },
+          {
+                  "id": 5,
+                  "name": "Code Quality & Static Analysis",
+                  "category": "Qualite du code",
+                  "description": "Analyse statique, complexite cyclomatique, duplication de code, dette technique",
+                  "tools": ["SonarQube", "ESLint", "CodeClimate"],
+                  "priority": "high"
+          },
+          {
+                  "id": 6,
+                  "name": "Dependency & Package Audit",
+                  "category": "Securite",
+                  "description": "Scan des dependances vulnerables, licences, packages obsoletes",
+                  "tools": ["npm audit", "Snyk", "OWASP Dependency-Check"],
+                  "priority": "critical"
+          },
+          {
+                  "id": 7,
+                  "name": "API Security Testing",
+                  "category": "Securite",
+                  "description": "Test des endpoints API, authentification, autorisation, rate limiting",
+                  "tools": ["Postman", "OWASP ZAP", "Burp Suite"],
+                  "priority": "critical"
+          },
+          {
+                  "id": 8,
+                  "name": "Infrastructure & Cloud Security",
+                  "category": "Infrastructure",
+                  "description": "Audit des configurations cloud (AWS/GCP/Azure), IAM, S3 policies",
+                  "tools": ["Prowler", "ScoutSuite", "Checkov"],
+                  "priority": "critical"
+          },
+          {
+                  "id": 9,
+                  "name": "SSL/TLS Certificate Analysis",
+                  "category": "Securite",
+                  "description": "Verification des certificats SSL, protocoles TLS, chiffrement, expiration",
+                  "tools": ["SSL Labs", "testssl.sh", "OpenSSL"],
+                  "priority": "high"
+          },
+          {
+                  "id": 10,
+                  "name": "Mobile Responsiveness",
+                  "category": "UX/UI",
+                  "description": "Test des interfaces sur differents appareils et resolutions",
+                  "tools": ["BrowserStack", "Chrome DevTools", "Responsive Design Checker"],
+                  "priority": "medium"
+          },
+          {
+                  "id": 11,
+                  "name": "Database Performance & Security",
+                  "category": "Base de donnees",
+                  "description": "Analyse des requetes SQL lentes, indexation, permissions, injection SQL",
+                  "tools": ["pgBadger", "MySQL Explain", "SolarWinds DPA"],
+                  "priority": "high"
+          },
+          {
+                  "id": 12,
+                  "name": "Log Analysis & Monitoring",
+                  "category": "Monitoring",
+                  "description": "Analyse des logs d'erreurs, patterns suspects, alertes",
+                  "tools": ["ELK Stack", "Splunk", "Datadog"],
+                  "priority": "medium"
+          },
+          {
+                  "id": 13,
+                  "name": "GDPR / Data Privacy Compliance",
+                  "category": "Conformite",
+                  "description": "Audit de conformite RGPD, gestion des consentements, data mapping",
+                  "tools": ["OneTrust", "TrustArc", "GDPR Audit Tools"],
+                  "priority": "critical"
+          },
+          {
+                  "id": 14,
+                  "name": "Cross-Browser Compatibility",
+                  "category": "Compatibilite",
+                  "description": "Test sur differents navigateurs (Chrome, Firefox, Safari, Edge)",
+                  "tools": ["BrowserStack", "CrossBrowserTesting", "Sauce Labs"],
+                  "priority": "medium"
+          },
+          {
+                  "id": 15,
+                  "name": "Automated Testing Coverage",
+                  "category": "Tests",
+                  "description": "Evaluation de la couverture de tests unitaires, integration, e2e",
+                  "tools": ["Jest", "Istanbul", "SonarQube Coverage"],
+                  "priority": "high"
+          },
+          {
+                  "id": 16,
+                  "name": "Content Security Policy (CSP)",
+                  "category": "Securite",
+                  "description": "Audit des headers HTTP, CSP, HSTS, X-Frame-Options, CORS",
+                  "tools": ["securityheaders.com", "Mozilla Observatory", "OWASP ZAP"],
+                  "priority": "high"
+          },
+          {
+                  "id": 17,
+                  "name": "Docker & Container Security",
+                  "category": "Infrastructure",
+                  "description": "Scan des images Docker, configurations, secrets exposes, CVE",
+                  "tools": ["Trivy", "Anchore", "Docker Bench"],
+                  "priority": "high"
+          },
+          {
+                  "id": 18,
+                  "name": "CI/CD Pipeline Audit",
+                  "category": "DevSecOps",
+                  "description": "Analyse des pipelines de deploiement, secrets dans le code",
+                  "tools": ["GitGuardian", "TruffleHog", "GitHub Advanced Security"],
+                  "priority": "high"
+          },
+          {
+                  "id": 19,
+                  "name": "Network & Port Scanning",
+                  "category": "Infrastructure",
+                  "description": "Scan des ports ouverts, services exposes, topologie reseau",
+                  "tools": ["Nmap", "Nessus", "Masscan"],
+                  "priority": "medium"
+          },
+          {
+                  "id": 20,
+                  "name": "UX / Usability Heuristics",
+                  "category": "UX/UI",
+                  "description": "Evaluation heuristique selon Nielsen, parcours utilisateur, formulaires",
+                  "tools": ["Hotjar", "FullStory", "UserTesting"],
+                  "priority": "medium"
+          }
+    ],
+    "summary": {
+          "total_skills": 20,
+          "categories": {
+                  "Securite": 6,
+                  "Infrastructure": 3,
+                  "UX/UI": 2,
+                  "Performance": 1,
+                  "SEO": 1,
+                  "Accessibilite": 1,
+                  "Qualite du code": 1,
+                  "Base de donnees": 1,
+                  "Monitoring": 1,
+                  "Conformite": 1,
+                  "Compatibilite": 1,
+                  "Tests": 1,
+                  "DevSecOps": 1
+          },
+          "priority_distribution": {
+                  "critical": 5,
+                  "high": 11,
+                  "medium": 4
+          }
+    }
+}
